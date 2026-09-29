@@ -1,0 +1,280 @@
+<!DOCTYPE html>
+<html lang="nl">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>Lotte Carleer | UX/UI Designer & Digital Experience Designer</title>
+  <meta name="description" content="Portfolio van Lotte Carleer, Digital Experience Designer. Bekijk mijn werk in UX/UI design, webdesign, prototyping en digitale ervaringen.">
+  <meta name="keywords" content="UX/UI designer, webdesign, Digital Experience Design, Figma, prototyping, portfolio, Lotte Carleer">
+  <meta name="author" content="Lotte Carleer">
+  <meta name="robots" content="index, follow">
+
+  <meta property="og:title" content="Lotte Carleer | UX/UI Designer">
+  <meta property="og:description" content="Ik ontwerp digitale ervaringen, websites en interfaces die helder, gebruiksvriendelijk en visueel sterk zijn.">
+  <meta property="og:type" content="website">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Space+Grotesk:wght@500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <header class="site-header">
+    <nav class="nav container" aria-label="Hoofdnavigatie">
+      <a class="logo" href="index.html">Lotte Carleer</a>
+
+      <div class="nav-links">
+        <a class="active" href="index.html">Home</a>
+        <a href="#werk">Werk</a>
+        <a href="over-mij.html">Over mij</a>
+        <a href="contact.html">Contact</a>
+      </div>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero container" aria-labelledby="hero-title">
+      <div class="hero-copy">
+        <p class="eyebrow">DIGITAL EXPERIENCE DESIGNER</p>
+
+        <h1 id="hero-title">
+          Ik ontwerp
+          <span class="changing-word" aria-live="polite">dashboards</span>
+          die je meteen snapt.
+        </h1>
+
+        <p class="intro">
+          Ik ben Lotte, Digital Experience Designer. Ik combineer
+          <strong>design, UX en een beetje code</strong> om digitale
+          ervaringen te maken die duidelijk én leuk zijn.
+        </p>
+
+        <div class="hero-buttons">
+          <a class="button button-primary" href="#werk">Bekijk mijn werk</a>
+          <a class="button button-secondary" href="contact.html">Neem contact op</a>
+        </div>
+      </div>
+
+      <div class="hero-visual" id="note-board" aria-label="Interactief post-it bord">
+        <div class="photo-card">
+          <label for="photo-upload" class="photo-placeholder">
+            <span class="initials">LC</span>
+            <span class="photo-hint">Klik om je foto toe te voegen</span>
+          </label>
+          <input id="photo-upload" type="file" accept="image/*" hidden>
+        </div>
+
+        <button class="post-it post-it-yellow" type="button">
+          Test vroeg, test vaak.
+        </button>
+
+        <button class="post-it post-it-pink" type="button">
+          Sleep mij rond!<br>
+          <span>☝️</span>
+        </button>
+
+        <div class="size-label">320 × 400</div>
+      </div>
+    </section>
+
+    <section class="ticker" aria-label="Mijn vaardigheden">
+      <div class="ticker-track">
+        <span>UX/UI Design</span><i>✹</i>
+        <span>Prototyping</span><i>✹</i>
+        <span>Designsystemen</span><i>✹</i>
+        <span>Webdesign</span><i>✹</i>
+        <span>Figma</span><i>✹</i>
+        <span>UX Research</span><i>✹</i>
+
+        <!-- Herhaling zorgt voor een doorlopende animatie -->
+        <span>UX/UI Design</span><i>✹</i>
+        <span>Prototyping</span><i>✹</i>
+        <span>Designsystemen</span><i>✹</i>
+        <span>Webdesign</span><i>✹</i>
+        <span>Figma</span><i>✹</i>
+        <span>UX Research</span><i>✹</i>
+      </div>
+    </section>
+
+    <section class="work container" id="werk" aria-labelledby="work-title">
+      <div class="section-heading">
+        <p class="eyebrow">MIJN PROJECTEN</p>
+        <h2 id="work-title">Recent work</h2>
+        <p>Een selectie van projecten waar ik aan gewerkt heb.</p>
+      </div>
+
+      <div class="project-grid">
+        <article class="project-card project-jazz">
+          <div class="project-image">
+            <span>JAZZ<br>ZOLDER</span>
+          </div>
+          <div class="project-info">
+            <p class="project-type">WEB DESIGN · CMS</p>
+            <h3>JazzZolder</h3>
+            <p>Een nieuwe website voor een jazzclub, met focus op sfeer, overzicht en gebruiksgemak.</p>
+            <a href="#" aria-label="Bekijk project JazzZolder">Bekijk project →</a>
+          </div>
+        </article>
+
+        <article class="project-card project-aed">
+          <div class="project-image">
+            <span>AED<br>STUDIOS</span>
+          </div>
+          <div class="project-info">
+            <p class="project-type">UX/UI · WEBAPP</p>
+            <h3>Studio Connect</h3>
+            <p>Een digitale ervaring die bezoekers en bedrijven op een eenvoudige manier met elkaar verbindt.</p>
+            <a href="#" aria-label="Bekijk project Studio Connect">Bekijk project →</a>
+          </div>
+        </article>
+
+        <article class="project-card project-palm">
+          <div class="project-image">
+            <span>CAFÉ<br>DE PALM</span>
+          </div>
+          <div class="project-info">
+            <p class="project-type">UX/UI · PROTOTYPING</p>
+            <h3>Café De Palm</h3>
+            <p>Een digitale uitwerking voor een café, met een duidelijke visuele identiteit en eenvoudige navigatie.</p>
+            <a href="#" aria-label="Bekijk project Café De Palm">Bekijk project →</a>
+          </div>
+        </article>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="container">
+      <p>© 2026 Lotte Carleer</p>
+      <p>Designed & built by Lotte</p>
+    </div>
+  </footer>
+
+  <script>
+  // =========================
+// Woord in de hero veranderen
+// =========================
+
+const changingWord = document.querySelector(".changing-word");
+
+const words = [
+  "Apps",
+  "websites",
+  "prototypes",
+  "interfaces"
+];
+
+let wordIndex = 0;
+
+function changeWord() {
+  wordIndex = (wordIndex + 1) % words.length;
+
+  changingWord.classList.remove("is-changing");
+  void changingWord.offsetWidth;
+
+  changingWord.textContent = words[wordIndex];
+  changingWord.classList.add("is-changing");
+}
+
+setInterval(changeWord, 2200);
+
+
+// =========================
+// Post-its over de hele pagina
+// =========================
+
+const postIts = document.querySelectorAll(".post-it");
+
+postIts.forEach((postIt) => {
+  // De post-it staat eerst in de hero.
+  // We bewaren zijn schermpositie voordat we hem naar de body verplaatsen.
+  const rect = postIt.getBoundingClientRect();
+
+  document.body.appendChild(postIt);
+
+postIt.style.right = "auto";
+postIt.style.bottom = "auto";
+postIt.style.transform = "rotate(0deg)";
+
+// Startpositie van de post-its
+if (postIt.classList.contains("post-it-yellow")) {
+  // Geel: rechtsboven naast de foto
+  postIt.style.left = "calc(50% + 300px)";
+  postIt.style.top = "120px";
+}
+
+if (postIt.classList.contains("post-it-pink")) {
+  // Roze: linksonder naast de foto
+  postIt.style.left = "calc(50% - 10px)";
+  postIt.style.top = "650px";
+}
+
+  let dragging = false;
+  let startX = 0;
+  let startY = 0;
+  let startLeft = 0;
+  let startTop = 0;
+
+  postIt.addEventListener("pointerdown", startDragging);
+
+  function startDragging(event) {
+    dragging = true;
+
+    postIt.setPointerCapture(event.pointerId);
+
+    const currentRect = postIt.getBoundingClientRect();
+
+    startX = event.clientX;
+    startY = event.clientY;
+
+    startLeft = currentRect.left + window.scrollX;
+    startTop = currentRect.top + window.scrollY;
+
+    postIt.style.left = `${startLeft}px`;
+    postIt.style.top = `${startTop}px`;
+    postIt.style.zIndex = "9999";
+    postIt.style.cursor = "grabbing";
+  }
+
+  postIt.addEventListener("pointermove", moveDragging);
+
+  function moveDragging(event) {
+    if (!dragging) return;
+
+    let newLeft = startLeft + (event.clientX - startX);
+    let newTop = startTop + (event.clientY - startY);
+
+    const pageWidth = Math.max(
+      document.documentElement.scrollWidth,
+      document.body.scrollWidth
+    );
+
+    const pageHeight = Math.max(
+      document.documentElement.scrollHeight,
+      document.body.scrollHeight
+    );
+
+    const maxLeft = pageWidth - postIt.offsetWidth;
+    const maxTop = pageHeight - postIt.offsetHeight;
+
+    newLeft = Math.max(0, Math.min(newLeft, maxLeft));
+    newTop = Math.max(0, Math.min(newTop, maxTop));
+
+    postIt.style.left = `${newLeft}px`;
+    postIt.style.top = `${newTop}px`;
+  }
+
+  function stopDragging() {
+    dragging = false;
+    postIt.style.zIndex = "1000";
+    postIt.style.cursor = "grab";
+  }
+
+  postIt.addEventListener("pointerup", stopDragging);
+  postIt.addEventListener("pointercancel", stopDragging);
+});
+  </script>
+</body>
+</html>
