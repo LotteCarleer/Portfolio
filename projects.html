@@ -1,0 +1,245 @@
+<!DOCTYPE html>
+<html lang="nl">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>Werk | Lotte Carleer</title>
+
+  <meta
+    name="description"
+    content="Bekijk het werk van Lotte Carleer, Digital Experience Designer. Ontdek projecten in UX/UI design, webdesign, apps en designsystemen."
+  >
+
+  <meta name="author" content="Lotte Carleer">
+  <meta name="robots" content="index, follow">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+  <link
+    href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Space+Grotesk:wght@500;600;700&display=swap"
+    rel="stylesheet"
+  >
+
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+  <!-- HEADER -->
+
+  <header class="site-header">
+    <nav class="nav container" aria-label="Hoofdnavigatie">
+
+      <a class="logo" href="index.html">
+        Lotte Carleer
+      </a>
+
+      <div class="nav-links">
+        <a href="index.html">Home</a>
+        <a class="active" href="projects.html">Werk</a>
+        <a href="over-mij.html">Over mij</a>
+        <a href="contact.html">Contact</a>
+      </div>
+
+    </nav>
+  </header>
+
+
+  <!-- MAIN -->
+
+  <main class="projects-page">
+
+    <section class="projects-section container">
+
+      <p class="eyebrow">MIJN PROJECTEN</p>
+
+      <h1>Werk</h1>
+
+
+      <!-- FILTERS -->
+
+      <div class="project-filters" aria-label="Project filters">
+
+        <button class="filter-button active" data-filter="all">
+          Alle
+        </button>
+
+        <button class="filter-button" data-filter="app">
+          App
+        </button>
+
+        <button class="filter-button" data-filter="web">
+          Web
+        </button>
+
+        <button class="filter-button" data-filter="designsystem">
+          Designsystem
+        </button>
+
+      </div>
+
+
+      <!-- PROJECTS -->
+
+      <div class="project-grid">
+
+
+        <!-- PROJECT 1 -->
+
+        <article class="project-card" data-category="app">
+
+          <div class="project-image project-image-app">
+            <span>APP</span>
+          </div>
+
+          <div class="project-info">
+
+            <h2>Studio Connect</h2>
+
+            <p>
+              Een digitale ervaring voor AED Studios waarmee
+              bezoekers en bedrijven op een eenvoudige manier
+              met elkaar verbonden worden.
+            </p>
+
+            <div class="project-tags">
+              <span>UX/UI</span>
+              <span>Prototype</span>
+              <span>Webapp</span>
+            </div>
+
+          </div>
+
+        </article>
+
+
+        <!-- PROJECT 2 -->
+
+        <article class="project-card" data-category="web">
+
+          <div class="project-image project-image-web">
+            <span>WEB</span>
+          </div>
+
+          <div class="project-info">
+
+            <h2>JazzZolder</h2>
+
+            <p>
+              Een nieuwe website voor een jazzclub met focus
+              op sfeer, overzicht en een duidelijke
+              gebruikerservaring.
+            </p>
+
+            <div class="project-tags">
+              <span>Webdesign</span>
+              <span>UX/UI</span>
+              <span>CMS</span>
+            </div>
+
+          </div>
+
+        </article>
+
+
+        <!-- PROJECT 3 -->
+
+        <article class="project-card" data-category="designsystem">
+
+          <div class="project-image project-image-design">
+            <span>DS</span>
+          </div>
+
+          <div class="project-info">
+
+            <h2>Café De Palm</h2>
+
+            <p>
+              Een digitale uitwerking met een herkenbare
+              visuele identiteit, duidelijke navigatie en
+              een gebruiksvriendelijke interface.
+            </p>
+
+            <div class="project-tags">
+              <span>Designsystem</span>
+              <span>Figma</span>
+              <span>UX/UI</span>
+            </div>
+
+          </div>
+
+        </article>
+
+      </div>
+
+    </section>
+
+  </main>
+
+
+  <!-- FOOTER -->
+
+  <footer class="footer">
+
+    <div class="container">
+
+      <p>© 2026 Lotte Carleer</p>
+
+      <p>Designed &amp; built by Lotte</p>
+
+    </div>
+
+  </footer>
+
+
+  <!-- FILTER JAVASCRIPT -->
+
+  <script>
+
+    const filterButtons =
+      document.querySelectorAll(".filter-button");
+
+    const projectCards =
+      document.querySelectorAll(".project-card");
+
+
+    filterButtons.forEach((button) => {
+
+      button.addEventListener("click", () => {
+
+        const filter = button.dataset.filter;
+
+
+        // Actieve knop aanpassen
+
+        filterButtons.forEach((btn) => {
+          btn.classList.remove("active");
+        });
+
+        button.classList.add("active");
+
+
+        // Projecten filteren
+
+        projectCards.forEach((card) => {
+
+          const category = card.dataset.category;
+
+          if (filter === "all" || category === filter) {
+            card.style.display = "block";
+          } else {
+            card.style.display = "none";
+          }
+
+        });
+
+      });
+
+    });
+
+  </script>
+
+</body>
+</html>

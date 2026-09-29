@@ -587,3 +587,212 @@ h1 {
     transition: none;
   }
 }
+
+/* =========================
+   PROJECTS PAGE
+========================= */
+
+.projects-page {
+  min-height: calc(100vh - 160px);
+}
+
+.projects-section {
+  padding-top: 45px;
+  padding-bottom: 100px;
+}
+
+
+/* Titel */
+
+.projects-section h1 {
+  margin: 12px 0 25px;
+
+  font-family: "Space Grotesk", sans-serif;
+  font-size: 3.8rem;
+  line-height: 1;
+  letter-spacing: -0.04em;
+}
+
+
+/* Filters */
+
+.project-filters {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+
+  margin-bottom: 26px;
+}
+
+.filter-button {
+  padding: 9px 18px;
+
+  border: 1px solid #ded7da;
+  border-radius: 30px;
+
+  background: white;
+
+  font-family: "DM Sans", sans-serif;
+  font-size: 0.95rem;
+  color: #30292d;
+
+  cursor: pointer;
+
+  transition:
+    background 0.2s ease,
+    color 0.2s ease,
+    border-color 0.2s ease;
+}
+
+.filter-button:hover {
+  border-color: #222;
+}
+
+.filter-button.active {
+  background: #211b1e;
+  border-color: #211b1e;
+  color: white;
+}
+
+
+/* Project grid */
+
+.projects-section .project-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
+}
+
+
+/* Project card */
+
+.projects-section .project-card {
+  overflow: hidden;
+
+  background: white;
+
+  border: 1px solid #ded7da;
+  border-radius: 15px;
+
+  box-shadow: none;
+}
+
+
+/* Project image */
+
+.projects-section .project-image {
+  height: 180px;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  border-radius: 14px 14px 0 0;
+
+  font-family: "Space Grotesk", sans-serif;
+  font-size: 2.2rem;
+  font-weight: 700;
+}
+
+
+/* Kleuren */
+
+.project-image-app {
+  background: #f8e4ed;
+  color: #d52b69;
+}
+
+.project-image-web {
+  background: #1e171a;
+  color: white;
+}
+
+.project-image-design {
+  background: #e4dcdf;
+  color: #211b1e;
+}
+
+
+/* Project informatie */
+
+.projects-section .project-info {
+  padding: 18px 21px 20px;
+}
+
+.projects-section .project-info h2 {
+  margin: 0 0 8px;
+
+  font-family: "Space Grotesk", sans-serif;
+  font-size: 1.25rem;
+  line-height: 1.2;
+}
+
+.projects-section .project-info p {
+  margin: 0;
+
+  color: #675d62;
+
+  font-size: 0.98rem;
+  line-height: 1.6;
+}
+
+
+/* Tags */
+
+.projects-section .project-tags {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 7px;
+
+  margin-top: 14px;
+}
+
+.projects-section .project-tags span {
+  padding: 5px 11px;
+
+  border: 1px solid #e1d9dc;
+  border-radius: 20px;
+
+  color: #675d62;
+
+  font-size: 0.78rem;
+}
+
+
+/* =========================
+   STIPPENACHTERGROND
+========================= */
+
+.projects-page {
+  background-image: radial-gradient(
+    #f2b8cc 1.4px,
+    transparent 1.4px
+  );
+
+  background-size: 28px 28px;
+}
+
+
+/* =========================
+   MOBILE
+========================= */
+
+@media (max-width: 800px) {
+
+  .projects-section {
+    padding-top: 35px;
+  }
+
+  .projects-section h1 {
+    font-size: 3rem;
+  }
+
+  .projects-section .project-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .projects-section .project-image {
+    height: 200px;
+  }
+
+}
