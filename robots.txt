@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://lottecarleerportfolio.netlify.app/sitemap.xml
