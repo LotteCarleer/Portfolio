@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://lottecarleerportfolio.netlify.app/sitemap.xml
+Sitemap: https://lottecarleer.vercel.app/sitemap.xml
