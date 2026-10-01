@@ -68,10 +68,9 @@ input {
   justify-content: space-between;
 }
 
-.logo {
-  font-family: var(--font-title);
-  font-weight: 700;
-  font-size: 1.15rem;
+.logo img {
+  width: 60px;
+  height: auto;
 }
 
 .nav-links {
