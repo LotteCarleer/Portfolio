@@ -1,40 +1,49 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-stylesheet type="text/css" href="https://www.xml-sitemaps.com/css/sitemap.css"?>
-<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml">
 
-  <url>
-       <loc>https://lottecarleerportfolio.netlify.app/</loc>
-       <lastmod>2026-09-30T12:22:33+00:00</lastmod>
-       <priority>1.0000</priority>
-  </url>
-  <url>
-       <loc>https://lottecarleerportfolio.netlify.app/projects</loc>
-       <lastmod>2026-09-30T12:22:33+00:00</lastmod>
-       <priority>0.8000</priority>
-  </url>
-  <url>
-       <loc>https://lottecarleerportfolio.netlify.app/about</loc>
-       <lastmod>2026-09-30T12:22:33+00:00</lastmod>
-       <priority>0.8000</priority>
-  </url>
-  <url>
-       <loc>https://lottecarleerportfolio.netlify.app/contact</loc>
-       <lastmod>2026-09-30T12:22:33+00:00</lastmod>
-       <priority>0.8000</priority>
-  </url>
-  <url>
-       <loc>https://lottecarleerportfolio.netlify.app/jazzzolder</loc>
-       <lastmod>2026-09-30T12:22:33+00:00</lastmod>
-       <priority>0.8000</priority>
-  </url>
-  <url>
-       <loc>https://lottecarleerportfolio.netlify.app/aed</loc>
-       <lastmod>2026-09-30T12:22:33+00:00</lastmod>
-       <priority>0.8000</priority>
-  </url>
-  <url>
-       <loc>https://lottecarleerportfolio.netlify.app/cafedepalm</loc>
-       <lastmod>2026-09-30T12:22:33+00:00</lastmod>
-       <priority>0.8000</priority>
-  </url>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+        xmlns:xhtml="http://www.w3.org/1999/xhtml">
+
+    <url>
+        <loc>https://lottecarleer.vercel.app/</loc>
+        <lastmod>2026-09-30T12:22:33+00:00</lastmod>
+        <priority>1.0000</priority>
+    </url>
+
+    <url>
+        <loc>https://lottecarleer.vercel.app/projects</loc>
+        <lastmod>2026-09-30T12:22:33+00:00</lastmod>
+        <priority>0.8000</priority>
+    </url>
+
+    <url>
+        <loc>https://lottecarleer.vercel.app/about</loc>
+        <lastmod>2026-09-30T12:22:33+00:00</lastmod>
+        <priority>0.8000</priority>
+    </url>
+
+    <url>
+        <loc>https://lottecarleer.vercel.app/contact</loc>
+        <lastmod>2026-09-30T12:22:33+00:00</lastmod>
+        <priority>0.8000</priority>
+    </url>
+
+    <url>
+        <loc>https://lottecarleer.vercel.app/jazzzolder</loc>
+        <lastmod>2026-09-30T12:22:33+00:00</lastmod>
+        <priority>0.8000</priority>
+    </url>
+
+    <url>
+        <loc>https://lottecarleer.vercel.app/aed</loc>
+        <lastmod>2026-09-30T12:22:33+00:00</lastmod>
+        <priority>0.8000</priority>
+    </url>
+
+    <url>
+        <loc>https://lottecarleer.vercel.app/cafedepalm</loc>
+        <lastmod>2026-09-30T12:22:33+00:00</lastmod>
+        <priority>0.8000</priority>
+    </url>
+
 </urlset>
