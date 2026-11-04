@@ -2847,6 +2847,66 @@ h1 {
   margin-right: auto;
 }
 
+/* TEAMGENOTEN */
+.team-section {
+    margin: 60px 0;
+}
+
+.team-section h2 {
+    font-size: 26px;
+    font-weight: 600;
+    margin-bottom: 22px;
+    color: #252025;
+}
+
+.team-links {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 14px;
+}
+
+.team-links a {
+    display: flex;
+    align-items: center;
+    gap: 18px;
+    padding: 14px 22px;
+    background-color: #fff0f5;
+    border: 1px solid #f5c5d7;
+    border-radius: 12px;
+    color: #b83269;
+    text-decoration: none;
+    font-size: 15px;
+    font-weight: 500;
+    transition: all 0.3s ease;
+}
+
+.team-links a span {
+    color: #e36b9b;
+    font-size: 18px;
+}
+
+.team-links a:hover {
+    background-color: #e879a5;
+    border-color: #e879a5;
+    color: white;
+    transform: translateY(-4px);
+    box-shadow: 0 6px 18px rgba(210, 80, 130, 0.18);
+}
+
+.team-links a:hover span {
+    color: white;
+}
+
+/* MOBIEL */
+@media (max-width: 600px) {
+    .team-links {
+        flex-direction: column;
+    }
+
+    .team-links a {
+        justify-content: space-between;
+    }
+}
 
 /* =========================
    MOBILE
